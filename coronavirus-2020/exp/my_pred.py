@@ -1,13 +1,12 @@
 """
 Experiment summary
 ------------------
-Treat each province/state in a country cases over time
-as a vector, do a simple K-Nearest Neighbor between 
-countries. What country has the most similar trajectory
-to a given country?
+Compares Results of a Decision Tree Regressor
+and Linear Regression for predicting cases
+of COVID-19 in the US.
 
-This one is different in that it uses the difference in cases
-from day to day, rather than the raw number of cases.
+Much of this is based on:
+https://medium.com/@randerson112358/predict-stock-prices-using-machine-learning-python-f554b7167b36
 """
 
 import sys

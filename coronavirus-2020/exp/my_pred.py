@@ -52,8 +52,8 @@ newCases[0] = features[0]
 
 dates = np.arange(len(newCases))
 
-daysGiven = 7
-daysPred = 3
+daysGiven = 14
+daysPred = 7
 totDays = daysGiven + daysPred
 
 newFeatures = np.zeros((len(newCases) - totDays, daysGiven))
